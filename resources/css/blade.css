@@ -1,0 +1,29 @@
+#wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+#header {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#footer {
+    height: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+* {
+    box-sizing: border-box;
+}
+#container {
+    display: flex; 
+}
+#main {
+    width: 780px;
+    height: 700px;
+}
+#aside {
+    width: 200px;
+    margin-right: 20px;
+}
