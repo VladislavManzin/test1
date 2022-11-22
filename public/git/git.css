@@ -21,7 +21,7 @@
 .menu > div.two {
     position: fixed;
     top: 2%;
-    left: 12.25%;
+    left: 8.25%;
     padding: 20px;
     border: 1px solid black;
     background-color: rgb(180, 180, 180);
@@ -34,7 +34,7 @@
 .menu > div.three {
     position: fixed;
     top: 2%;
-    left: 24.25%;
+    left: 16.25%;
     padding: 20px;
     border: 1px solid black;
     background-color: rgb(180, 180, 180);
@@ -46,6 +46,8 @@
 }
 .button {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 40%;
+    border: 1px solid black;
+    background-color: white;
 }
