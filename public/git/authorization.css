@@ -1,0 +1,17 @@
+.authorization1 {
+    border: 1px solid black;
+    background-color: grey;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    text-align: center;
+    font-size: 200%;
+}
+.authorization2 {
+    border: 1px solid black;
+    background-color: grey;
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    width: 100%;
+}
