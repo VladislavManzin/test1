@@ -1,17 +1,76 @@
 .registration1 {
     border: 1px solid black;
     background-color: grey;
-    position: absolute;
-    top: 10%;
-    left: 30%;
     text-align: center;
     font-size: 200%;
+    width: 50%;
+    margin-left: 25%;
+    padding-bottom: 20px;
 }
 .registration2 {
     border: 1px solid black;
     background-color: grey;
-    position: absolute;
     text-align: center;
-    bottom: 10%;
-    width: 100%;
+    font-size: 200%;
+    width: 50%;
+    margin-left: 25%;
+}
+.button {
+    position: fixed;
+    left: 12px;
+    bottom: 95%;
+}
+.codeword, input[type="checkbox"] {
+   display: none;
+}
+input[type="checkbox"]:checked ~ .codeword {
+    display: block;
+}
+.question {
+    position: absolute;
+    border: 1px;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    top: 59%;
+    left: 65%;
+    width: 25px;
+}
+.codeword {
+    position: absolute;
+    border: 2px solid rgb(61, 61, 61);
+    background-color: grey;
+    border-radius: 2%;
+    text-align: center;
+    font-size: 200%;
+    width: 50%;
+    top: 57%;
+    left: 25%;
+    padding-top: 20px;
+}
+.closed, input[type="checkbox"] {
+    display: none;
+ }
+ input[type="checkbox"]:checked ~ .closed {
+     display: block;
+ }
+.closed {
+    position: absolute;
+    border: 1px;
+    background-color: white;
+    text-align: center;
+    font-size: 120%;
+    top: 59%;
+    left: 70%;
+    width: 70px;
+}
+.notification {
+    position: absolute;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    font-size: 200%;
+    bottom: 62.5%;
+    width: 30%;
+    padding-top: 20px;
 }

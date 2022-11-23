@@ -1,7 +1,56 @@
-.button {
-    position: absolute;
-    top: 40%;
-    left: 40%;
+.menu {
+    position: fixed;
     border: 1px solid black;
-    background-color: white;
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+.menu > div.one {
+    position: fixed;
+    top: 2%;
+    left: 0.25%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    width: 100px;
+    height: 25px;
+}
+.menu > div.two {
+    position: fixed;
+    top: 2%;
+    left: 8.25%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    width: 100px;
+    height: 25px;
+}
+.menu > div.three {
+    position: fixed;
+    top: 2%;
+    left: 16.25%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(180, 180, 180);
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    width: 125px;
+    height: 25px;
+}
+.regauth {
+    position: fixed;
+    border: 1px solid black;
+    background-color: rgb(189, 39, 39);
+    text-align: center;
+    font-size: 200%;
+    top: 5%;
+    left: 25%;
+    width: 50%;
 }
