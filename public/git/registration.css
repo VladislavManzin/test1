@@ -1,6 +1,10 @@
+body {
+    background-color: rgb(47, 0, 255);
+}
 .registration1 {
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(82, 56, 201);
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
     width: 50%;
@@ -9,7 +13,8 @@
 }
 .registration2 {
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(82, 56, 201);
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
     width: 50%;
@@ -20,57 +25,18 @@
     left: 12px;
     bottom: 95%;
 }
-.codeword, input[type="checkbox"] {
-   display: none;
-}
-input[type="checkbox"]:checked ~ .codeword {
-    display: block;
-}
-.question {
-    position: absolute;
-    border: 1px;
-    background-color: white;
-    text-align: center;
-    font-size: 120%;
-    top: 59%;
-    left: 65%;
-    width: 25px;
-}
-.codeword {
-    position: absolute;
-    border: 2px solid rgb(61, 61, 61);
-    background-color: grey;
-    border-radius: 2%;
-    text-align: center;
-    font-size: 200%;
-    width: 50%;
-    top: 57%;
-    left: 25%;
-    padding-top: 20px;
-}
-.closed, input[type="checkbox"] {
-    display: none;
- }
- input[type="checkbox"]:checked ~ .closed {
-     display: block;
- }
-.closed {
-    position: absolute;
-    border: 1px;
-    background-color: white;
-    text-align: center;
-    font-size: 120%;
-    top: 59%;
-    left: 70%;
-    width: 70px;
-}
 .notification {
-    position: absolute;
+    position: fixed;
     border: 2px solid black;
-    background-color: grey;
+    background-color: rgb(82, 56, 201);
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
-    bottom: 62.5%;
+    bottom: 70%;
     width: 30%;
-    padding-top: 20px;
+}
+* > a{
+    border: 1px solid black;
+    background-color: rgb(94, 89, 165);
+    color: rgb(255, 217, 0);
 }

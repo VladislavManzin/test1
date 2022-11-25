@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(204, 69, 69);
+}
+.rulereg {
+    position: fixed;
+    border: 1px solid black;
+    background-color: brown;
+    text-align: center;
+    width: 50%;
+    left: 22.5%;
+}
+.rules {
+    position: fixed;
+    border: 1px solid black;
+    background-color: rgb(199, 15, 15);
+    padding-left: 2%;
+    width: 48%;
+    left: 22.5%;
+    top: 10.5%;
+}
+.rules > p.center {
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 120%;
+    color: aliceblue;
+}
+.rules > p.left {
+    text-align: left;
+}
+.button {
+    left: 12px;
+    bottom: 95%;
+}

@@ -1,6 +1,10 @@
+body {
+    background-color: rgb(140, 0, 255);
+}
 .authorization1 {
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(146, 74, 204);
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
     width: 50%;
@@ -9,7 +13,8 @@
 }
 .authorization2 {
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(146, 74, 204);
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
     width: 50%;
@@ -27,14 +32,15 @@
      background-color: white;
      text-align: center;
      font-size: 120%;
-     top: 35.3%;
+     top: 34.3%;
      left: 53.5%;
-     width: 25px;
+     width: 23px;
  }
 .help {
     position: absolute;
     border: 2px solid black;
-    background-color: grey;
+    background-color: rgb(133, 42, 207);
+    color: rgb(200, 217, 233);
     text-align: center;
     border-radius: 2%;
     font-size: 200%;
@@ -63,4 +69,10 @@
     position: fixed;
     left: 12px;
     bottom: 95%;
+}
+
+* > a{
+    border: 1px solid black;
+    background-color: rgb(135, 99, 165);
+    color: rgb(255, 217, 0);
 }

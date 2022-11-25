@@ -11,18 +11,22 @@
     <div class="registration1">
         <form>
           <h1>Регистрация</h1>
+          <label for="name">Введите своё имя: </label>
+          <input type="text" id="name" required/><br/><br/>
+          <label for="surname">Введите свою фамилию: </label>
+          <input type="text" id="surname" required/><br/><br/>
+          <label for="patronymic">Введите своё отчество: </label>
+          <input type="text" id="patronymic"><br/><br/>
           <label for="Login">Придумайте логин: </label>
           <input type="text" id="Login" required/><br/><br/>
+          <label for="email">Введите электронную почту: </label>
+          <input type="email" id="email" required/><br/><br/>
           <label for="password"> Придумайте пароль: </label>
           <input type="password" id="password" required/><br/><br/>
           <label for="ppassword">Повторите пароль: </label>
           <input type="password" id="ppassword" required/><br/><br/>
-          <label for="phone">Введите свой телефон</label>
-          <input type="tell" id="phone" required/><br/><br/>
-          <label for="email">Введите электронную почту: </label>
-          <input type="email" id="email" required/><br/><br/>
-          <label for="codeword">Придумайте кодовое слово: </label>
-          <input type="text" id="codeword" required/><br/><br/>
+          <label for="agree">Я прочитал(а) правила регистрации и согласен(на) их соблюдать</label>
+          <input type="checkbox" id="agree" required/><br/><br/>
         </form>
           <input type="reset" name="clr" value="Очистить"/><br/>    
         <form action="home.html">
@@ -33,19 +37,11 @@
       <p>Если вы зарегистрированы, то авторизируйтесь <a href="authorization.html">здесь</a></p>
     </div>
     <div class="notification">
-      <p>Приветствуем в регистрации<br/> Funny Comics Land<br>Завершите регистрацию,<br/> чтобы попасть в мир комиксов<br/>Чтобы не забыть логин, пароль и т.тд.<br> Запишите их или хорошо запомните<br/>в случае чего можно восстановить их</p>
+      <p>Приветствуем в регистрации<br/> Funny Comics Land<br>Пожалуйста ознакомьтесь с <br/><a href="Rules.html">правилами регистрации</a></p>
     </div>
     <div class="button">
       <form action="menu.html">
-        <button>назад</button>
+        <button>На главную</button>
       </form><br/>
     </div>
-          <label for="quest" class="question" >?</label>
-          <input type="checkbox" id="quest">
-          <div class="codeword">
-            <p>По кодовому слову вы сможете восстановить или же поменять пароль</p>
-          </div>
-            <label for="quest" class="closed" >закрыть</label>
-            <input type="checkbox" id="quest">
-</body>
 </html>

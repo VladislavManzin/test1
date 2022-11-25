@@ -1,7 +1,10 @@
+body {
+    background-color: rgb(26, 224, 75);
+}
 .menu {
     position: fixed;
     border: 1px solid black;
-    background-color: grey;
+    background-color: rgb(58, 175, 64);
     width: 100%;
     height: 50px;
 }
@@ -11,7 +14,7 @@
     left: 0.25%;
     padding: 20px;
     border: 1px solid black;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(108, 212, 113);
     color: white;
     text-align: center;
     font-size: 125%;
@@ -24,7 +27,7 @@
     left: 8.25%;
     padding: 20px;
     border: 1px solid black;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(108, 212, 113);
     color: white;
     text-align: center;
     font-size: 125%;
@@ -37,20 +40,49 @@
     left: 16.25%;
     padding: 20px;
     border: 1px solid black;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(108, 212, 113);
     color: white;
     text-align: center;
     font-size: 125%;
-    width: 125px;
+    width: 100px;
+    height: 25px;
+}
+.menu > div.four {
+    position: fixed;
+    top: 2%;
+    left: 24.25%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(108, 212, 113);
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    width: 100px;
+    height: 25px;
+}
+.menu > div.five {
+    position: fixed;
+    top: 2%;
+    left: 32.25%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(108, 212, 113);
+    color: white;
+    text-align: center;
+    font-size: 125%;
+    width: 100px;
     height: 25px;
 }
 .regauth {
     position: fixed;
-    border: 1px solid black;
-    background-color: rgb(189, 39, 39);
+    border: 5px solid rgb(138, 30, 30);
+    background-color: rgb(74, 153, 37);
     text-align: center;
     font-size: 200%;
-    top: 5%;
-    left: 25%;
+    left: 45%;
     width: 50%;
+}
+.regauth > p > strong {
+    color: red;
+    font-size: 120%;
 }
